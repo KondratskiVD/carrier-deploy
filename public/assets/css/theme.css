@@ -1,0 +1,38 @@
+/* theme settings */
+:root {
+  --transition-time: .3s;
+
+  --body-bg__color: #fff;
+  --about-bg__color: rgb(249, 250, 255);
+
+  --main-text__color: rgb(56, 43, 91);
+  --main-highlight__color: rgb(87, 18, 176);
+  --main-highlight__color__value: 87, 18, 176;
+  /*--main__highlight-color: rgb(var(--main__highlight-color-value));*/
+
+  --nav-header__color: rgba(255, 255, 255, .4);
+  --nav-header__color__current: rgba(255, 255, 255, 1);
+  --nav-header__color__hover: var(--nav-header__color__current);
+  --nav-header__color__focus: var(--nav-header__color__current);
+  --nav-header__color__active: rgba(255, 255, 255, .9);
+
+  --nav-header__color__scrolled: var(--main-text__color);
+  --nav-header__color__current__scrolled: rgba(var(--main-highlight__color__value), 1);
+  --nav-header__color__hover__scrolled: rgba(var(--main-highlight__color__value), .6);
+  --nav-header__color__focus__scrolled: var(--nav-header__color__hover__scrolled);
+  --nav-header__color__active__scrolled: rgba(var(--main-highlight__color__value), 0.3);
+
+  --main-title__color: var(--main-text__color);
+  --list-bullet__size: .5em;
+  --main-link__color: rgb(84, 135, 204);
+
+  --advantages-grad__edge: 5%;
+
+  --blanket__color: rgba(12, 6, 33, 0.6);
+
+  /* effects */
+  --rndPos: 0;
+  --levDur: 0;
+  --rndOp: 1;
+  --opDur: 0;
+}

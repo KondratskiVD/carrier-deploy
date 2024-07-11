@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/mobile.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Service</title>
+</head>
+<body>
+<main>
+  <div class="gradient__lite">
+  </div>
+  <header class="header d-flex justify-content-between">
+    <a href="index.html" class="d-flex align-items-center gap-2">
+      <img src="assets/images/logo.svg" alt="">
+      <img src="assets/images/logo-title.svg" alt="">
+    </a>
+    <nav class="desktop_menu">
+      <div class="d-flex gap-8 align-items-center">
+        <a href="index.html">About</a>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="service.html#backend">Backend Performance Testing</a></li>
+            <li><a class="dropdown-item" href="service.html#frontend">Frontend Performance Testing</a></li>
+            <li><a class="dropdown-item" href="service.html#education">Handover and Education</a></li>
+            <li><a class="dropdown-item" href="service.html#hypercare">Hypercare</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Support
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://getcarrier.io/categories">Documentation</a></li>
+            <li><a class="dropdown-item" href="https://getcarrier.io/categories">Changelog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <button class="button_primary" id="logIn">
+      <span class="button_primary-text">
+        <a href="https://platform.getcarrier.io/">Log in</a>
+      </span>
+    </button>
+    <button class="cmn-toggle-switch cmn-toggle-switch__htx">
+      <span></span>
+    </button>
+    <div class="mobile_menu d-none">
+      <div>
+        <nav>
+          <ul class="mobile_nav">
+            <li><a class="sub-dropdown-item" href="index.html">About</a></li>
+            <li><a class="sub-dropdown-item" href="service.html">Services</a></li>
+            <ul class="sub_nav">
+              <li><a class="sub-dropdown-item" href="service.html#backend">Backend Performance Testing</a></li>
+              <li><a class="sub-dropdown-item" href="service.html#frontend">Frontend Performance Testing</a></li>
+              <li><a class="sub-dropdown-item" href="service.html#education">Handover and Education</a></li>
+              <li><a class="sub-dropdown-item" href="service.html#hypercare">Hypercare</a></li>
+            </ul>
+            <li><a href="#">Support</a></li>
+            <ul class="sub_nav">
+              <li><a class="sub-dropdown-item" href="https://getcarrier.io/categories" target="_blank">Documentation</a></li>
+              <li><a class="sub-dropdown-item" href="https://getcarrier.io/categories" target="_blank">Changelog</a></li>
+            </ul>
+          </ul>
+          <button class="button_primary mt-4">
+            <span class="button_primary-text">
+              <a href="https://platform.getcarrier.io/" target="_blank">Log in</a>
+            </span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="d-flex align-items-center flex-column col col-lg-6" style="margin: 100px auto;">
+        <h1 class="mb-4">Service offerings</h1>
+        <p class="mb-4 text-center">With our team of experienced performance analysts and our proven approaches, we offer tailored performance testing and consulting services to meet every client’s needs.</p>
+        <button class="button_secondary">
+          <a href="contact.html">Ask for service</a>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container_grid__2 container__blue container_grid_2_1 gap-4">
+    <div class="d-flex gap-4 align-items-start w-100">
+      <img src="assets/images/icon_support.svg">
+      <div>
+        <h3 class="text-start mb-2">Backend Performance Testing</h3>
+        <p>Identify and mitigate backend bottlenecks to ensure your applications run smoothly under various loads.</p>
+      </div>
+    </div>
+    <div class="d-flex gap-4 align-items-start w-100">
+      <img src="assets/images/icon_frontend.svg">
+      <div>
+        <h3 class="text-start mb-2">Frontend Performance Testing</h3>
+        <p>Optimize user experience with detailed analysis of your application's frontend, enhancing responsiveness and user satisfaction.</p>
+      </div>
+    </div>
+    <div class="d-flex gap-4 align-items-start w-100">
+      <img src="assets/images/icon_education.svg">
+      <div>
+        <h3 class="text-start mb-2">Handover and Education</h3>
+        <p>Empower your team with the skills and knowledge to maintain and extend performance testings frameworks through our expert-led training sessions.</p>
+      </div>
+    </div>
+    <div class="d-flex gap-4 align-items-start w-100">
+      <img src="assets/images/icon_hypercare.svg">
+      <div>
+        <h3 class="text-start mb-2">Hypercare</h3>
+        <p>With our Hypercare service, the delivery team can conduct tests for new builds on their own, ensuring continuous performance monitoring.</p>
+      </div>
+    </div>
+  </div>
+  <div class="service_container d-flex solution_container__img gap-8 align-items-center" id="backend">
+    <div class="w-50">
+      <p class="solutions_text">service</p>
+      <h1 class="mt-4">Backend performance testing service</h1>
+      <p class="my-4"> Our performance testing specialists are committed to elevating your application's backend efficiency, ensuring robustness under peak load conditions.
+        <br>Through our comprehensive testing methodologies, we pinpoint bottlenecks, optimize resource utilization, and significantly reduce potential risks, securing a seamless user experience.</p>
+      </p>
+      <span class="link_text">
+        <a href="">Ask for service &nbsp;&nbsp;<img src="assets/images/icon_arrow-left__blue.svg" alt=""></a>
+      </span>
+    </div>
+    <img src="assets/images/testing.png" alt="" class="w-50">
+  </div>
+  <div class="service_container d-flex solution_container__img gap-8 align-items-center" id="frontend">
+    <img src="assets/images/Analysis.png" alt="" class="w-50">
+    <div class="w-50">
+      <p class="solutions_text">service</p>
+      <h1 class="mt-4">Frontened performance testing service</h1>
+      <p class="my-4">Our dedicated team of performance testing experts focuses on optimizing your application's frontend.
+        We ensure that your user interface is not only visually appealing but also performs seamlessly under various user loads. By analyzing elements such as load times, response times, and user interaction patterns, we help you reduce bounce rates, improve engagement, and secure a superior user experience.</p>
+      <span class="link_text">
+        <a href="contact.html">Ask for service &nbsp;&nbsp;<img src="assets/images/icon_arrow-left__blue.svg" alt=""></a>
+      </span>
+    </div>
+  </div>
+  <div class="service_container d-flex solution_container__img gap-8 align-items-center" id="education">
+    <div class="w-50">
+      <p class="solutions_text">service</p>
+      <h1 class="mt-4">Handover and Education</h1>
+      <p class="my-4">Our commitment extends beyond testing to ensure your team is fully equipped to maintain and extend the performance optimizations we implement.
+        <br>Through targeted educational sessions and comprehensive handover documentation, we empower your staff with the knowledge and tools needed to sustain peak application performance. This education initiative is designed to help your team understand performance metrics, recognize potential issues, and apply best practices in performance testing and optimization.</p>
+      </p>
+      <span class="link_text">
+        <a href="contact.html">Ask for service &nbsp;&nbsp;<img src="assets/images/icon_arrow-left__blue.svg" alt=""></a>
+      </span>
+    </div>
+    <img src="assets/images/Analysis.png" alt="" class="w-50">
+  </div>
+  <div class="service_container d-flex solution_container__img gap-8 align-items-center" id="hypercare">
+    <img src="assets/images/Performance_2.png" alt="" class="w-50">
+    <div class="w-50">
+      <p class="solutions_text">service</p>
+      <h1 class="mt-4">Hypercare</h1>
+      <p class="my-4">Our Hypercare Testing Service is designed to provide comprehensive support to your development team. We consult developers to onboard them in performance testing expertise and assist in tests execution. Our sessions with the product team are focused on answering questions and assisting them to independently manage performance testing activities within their team. This service is part of our commitment to ensure the reliability, stability, and performance of your application under varying load conditions.
+      </p>
+      <span class="link_text">
+        <a href="contact.html">Ask for service &nbsp;&nbsp;<img src="assets/images/icon_arrow-left__blue.svg" alt=""></a>
+      </span>
+    </div>
+  </div>
+  <section class="contact-cta platform">
+    <div class="container text-center">
+      <h2>Ready to Test Your Application's Performance?</h2>
+      <p class="mt-3 mb-4">Contact us today to learn how Carrier can transform your testing process.</p>
+      <span class="link_text">
+        <a href="contact.html">Ask for service &nbsp;&nbsp;<img src="assets/images/icon_arrow-left__blue.svg" alt=""></a>
+      </span>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="d-flex gap-4 justify-content-between footer_container">
+    <div class="d-flex flex-column justify-content-between">
+      <div class="d-flex align-items-center gap-2">
+        <img src="assets/images/logo.svg" alt="">
+        <p class="text-white">CARRIER</p>
+      </div>
+      <div class="desktop_copyrigth">
+        <p class="text-white">Sponsored by EPAM Systems</p>
+        <p class="copyright_text">© 2024 getcarrier.com. All rights reserved.</p>
+      </div>
+    </div>
+    <div>
+      <h4><a href="index.html">ABOUT</a></h4>
+    </div>
+    <div>
+      <h4 class="mb-2"><a href="service.html">SOLUTION</a></h4>
+      <h5 class="mb-1"><a href="service.html#backend">Backend Performance Testing</a></h5>
+      <h5 class="mb-1"><a href="service.html#frontend">Frontend Performance Testing</a></h5>
+      <h5 class="mb-1"><a href="service.html#education">Handover and Education</a></h5>
+      <h5 class="mb-1"><a href="service.html#hypercare">Hypercare</a></h5>
+    </div>
+    <div>
+      <h4 class="mb-2"><a href="contact.html">SUPPORT</a></h4>
+      <h5 class="mb-1"><a href="https://getcarrier.io/categories">Documentation</a></h5>
+      <h5 class="mb-1"><a href="https://getcarrier.io/categories">Changelog</a></h5>
+    </div>
+    <div>
+      <h4 class="mb-2"><a href="contact.html">CONTACT US</a></h4>
+      <h5 class="mb-1"><a href="https://github.com/carrier-io" target="_blank">Git</a></h5>
+      <h5 class="mb-1"><a href="https://hub.docker.com/u/getcarrier" target="_blank">Docker</a></h5>
+    </div>
+    <div class="mobile_copyrigth d-none">
+      <p class="text-white">Sponsored by EPAM Systems</p>
+      <p class="copyright_text">© 2024 getcarrier.com. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
